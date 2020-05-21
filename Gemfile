@@ -51,3 +51,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Embedded device auth
 gem 'ed25519', '~> 1.2', '>= 1.2.4'
+
+# Slim templates
+gem 'slim', '~> 4.1'
+
+# Coffee script compilation
+gem 'coffee-rails', '~> 5.0'
+gem 'mini_racer', '~> 0.2.14'
