@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  update_method: MyString
+  update_window_start: 2020-05-20 20:05:39
+  update_window_stop: 2020-05-20 20:05:39
+
+two:
+  name: MyString
+  update_method: MyString
+  update_window_start: 2020-05-20 20:05:39
+  update_window_stop: 2020-05-20 20:05:39
