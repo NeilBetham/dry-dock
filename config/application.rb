@@ -28,5 +28,11 @@ module DryDock
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+
+    # Load modules from libs
+    config.eager_load_paths << Rails.root.join('lib/modules')
+
+    # Local file cache location
+    config.file_cache_location = Rails.root.join('tmp/files')
   end
 end

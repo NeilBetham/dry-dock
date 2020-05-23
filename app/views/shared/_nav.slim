@@ -1,0 +1,10 @@
+.container
+  .columns
+    .column.col-12
+      .navbar
+        section.navbar-section
+          = link_to 'Dry Dock', root_path, class: ''
+        section.navbar-center
+        section.navbar-section
+          = link_to 'Admin', '#', class: 'btn btn-link'
+          = link_to 'Logout', sessions_path, method: :delete, class: 'btn btn-link'
