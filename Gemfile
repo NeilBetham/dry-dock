@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '2.7.1'
+ruby '2.7.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.1'
@@ -59,4 +59,4 @@ gem 'slim', '~> 4.1'
 
 # Coffee script compilation
 gem 'coffee-rails', '~> 5.0'
-gem 'mini_racer', '~> 0.2.14'
+gem 'mini_racer', '~> 0.3.1'
